@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: news
 title: Hamburger
 meta: Tasty
 catagory: news
