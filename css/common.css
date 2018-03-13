@@ -2,4 +2,66 @@ html {
     margin: 0;
     padding: 0;
     color: hotpink;
+    font-family: arial;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+h2 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 960px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.box {
+    background-color: gainsboro;
+    margin: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    margin: 0;
+    padding: 15px 0;
+    justify-content: space-around;
+    background-color: hotpink;
+    
+}
+strong {
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li {
+    
+}
+@media only screen and (min-width: 600px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

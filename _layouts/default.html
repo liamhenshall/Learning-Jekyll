@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/common.css" rel="stylesheet">
     <title>Jekyll Demonstrator</title>
 </head>
 
 <body>
+    <h1>DogWorld</h1>
     {% include nav.html %}
-    {{content}}
+    <div class="container">
+        {{content}}
+    </div>
 </body>
 
 </html>

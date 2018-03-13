@@ -1,13 +1,10 @@
 ---
 layout: default
 ---
-
-<h1>Menu</h1>
-<ul>
     {% for news in site.posts %}
-    <li>
-        <a href="">{{news.title}}</a>
-        <p>{{news.meta}}</p>
-    </li>
+        <a class="box" href="">
+            <img src="{{site.baseurl}}/img/{{news.image}}" alt="">
+            <h2>{{news.title}}</h2>
+            <p>{{news.meta}}</p>
+        </a>
     {% endfor %}
-</ul>
